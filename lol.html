@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theme OS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌐 Theme OS</h1>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <div></div><div></div><div></div>
+    </div>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="themes.html">Themes</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to Theme OS</h2>
+    <p>Create your own theme by submitting an Issue on our GitHub repo.</p>
+    <p><strong>🧪 Trial Version – 10 days</strong></p>
+    <a href="themes.html" class="btn">Browse Themes</a>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>Theme OS is a lightweight platform where anyone can suggest or design
+    new themes. Submit your ideas and join the creative community.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername/theme-os/issues" target="_blank">Submit an Issue</a></p>
+  </section>
+
+  <footer>
+    <small>© 2025 Theme OS — All Rights Reserved</small>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector(".nav-links").classList.toggle("active");
+    }
+  </script>
+</body>
+</html>
