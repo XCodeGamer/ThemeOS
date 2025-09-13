@@ -1,0 +1,5 @@
+your-repo/
+│
+├── lol.html       <-- main page (landing)
+├── themes.html      <-- separate page listing themes
+└── layout.css        <-- shared styles
