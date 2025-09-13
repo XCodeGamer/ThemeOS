@@ -1,0 +1,70 @@
+/* Mario-themed CSS */
+:root{
+  --mario-red:#c62828;
+  --mario-blue:#4fc3f7;
+  --mario-yellow:#ffd54f;
+  --card-rad:14px;
+  --text:#0f1720;
+  --glass: rgba(255,255,255,0.08);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: linear-gradient(180deg, #73c2ff 0%, #a0d8ff 30%, #8dd1ff 100%);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+}
+
+.mario-bg {
+  background-image:
+    linear-gradient(180deg, rgba(255,255,255,0.06), rgba(0,0,0,0.02)),
+    radial-gradient(circle at 20% 10%, rgba(255,213,79,0.12), transparent 10%),
+    linear-gradient(180deg, #73c2ff 0%, #a0d8ff 30%, #8dd1ff 100%);
+  min-height:100vh;
+}
+
+/* Top bar */
+.topbar{
+  position:sticky; top:0;
+  display:flex; gap:1rem; align-items:center;
+  justify-content:space-between;
+  padding:1rem 1.25rem;
+  background: linear-gradient(90deg, rgba(0,0,0,0.12), rgba(255,255,255,0.02));
+  backdrop-filter: blur(6px);
+  border-bottom: 2px solid rgba(0,0,0,0.06);
+}
+
+.topbar h1{color:var(--mario-red); font-size:1.1rem; margin:0}
+.nav{display:flex; gap:0.75rem}
+.nav a{color:#04263b; text-decoration:none; font-weight:700}
+.cta{
+  background: linear-gradient(90deg,var(--mario-yellow),#ffb84d);
+  border:none; padding:.5rem .8rem; border-radius:8px;
+  font-weight:700; cursor:pointer;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* Main container */
+.container{max-width:960px; margin:4rem auto; padding:1rem}
+
+.card{
+  background: linear-gradient(180deg, rgba(255,255,255,0.7), rgba(255,255,255,0.5));
+  border-radius:var(--card-rad);
+  padding:1.2rem;
+  margin:1rem 0;
+  box-shadow: 0 10px 30px rgba(2,6,23,0.12);
+}
+
+.card.big{padding:2rem; text-align:center}
+.mario-row{display:flex; gap:1rem; justify-content:center; margin-top:1rem}
+.mario-block{
+  width:64px; height:64px; display:flex; align-items:center; justify-content:center;
+  font-size:2rem; border-radius:10px;
+  background:linear-gradient(180deg,#fff7e6,#ffe9b3);
+  box-shadow:0 6px 12px rgba(0,0,0,0.12);
+}
+
+/* footer */
+.footer{padding:1rem; text-align:center; color:#012; opacity:0.9}
