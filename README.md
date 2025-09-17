@@ -2,6 +2,7 @@
 
 Welcome to **Theme OS** – a simple way to explore, share, and request custom themes.  
 You can create and submit new theme ideas just by opening an **Issue** in this repository.  
+![Static Badge](https://img.shields.io/badge/any_theme-THEMEOS-blue)
 
 ---
 
