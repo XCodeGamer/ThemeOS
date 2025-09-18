@@ -34,6 +34,6 @@ Here’s a sneak peek of the **blue background style** you’ll see:
 ```html
 <body style="background: linear-gradient(135deg, #1e3c72, #2a5298); color: white; font-family: sans-serif; text-align: center; height: 100vh; display: flex; justify-content: center; align-items: center;">
   <h1>🌐 Welcome to Theme OS</h1>
-  <p>Create your theme by making an Issue!</p>
+  <p>Create your theme by making an Issue! go see it on github lol sometimes when im updating the web </p>
 </body>
 
